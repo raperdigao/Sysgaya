@@ -913,7 +913,18 @@ ul {
 
 @media (max-width: 768px) {
 
-  
+     body {
+        background-color: #041E43;
+     }
+    .container-grid {
+        max-width: 768px;
+       width: 100%;
+        
+        height: auto;
+        margin: 0 auto;
+        
+    
+    }
     .containerheader-grid,
     .banner-flex,
     .titulo-serv-flex,
