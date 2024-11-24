@@ -913,6 +913,7 @@ ul {
 
 @media (max-width: 768px) {
 
+  
     .containerheader-grid,
     .banner-flex,
     .titulo-serv-flex,
@@ -935,7 +936,16 @@ ul {
     nav.nav-flex ul {
         display: flex;
         flex-direction: column;
-        padding: 0;
+        margin-left: 10px;
+    }
+
+    .artigo-principal h1 {
+        font-size: 16px;
+    }
+
+    .artigo-principal p {
+        font-size: 16px;
+      width: 70%;
     }
 
     nav.nav-flex ul li {
@@ -959,8 +969,10 @@ ul {
 
     }
 
+
     .cards-imagens {
         margin-bottom: 20px;
+        
     }
 
     .titulo-serv {
@@ -974,7 +986,7 @@ ul {
     }
 
     .titulo-solucoes h1 {
-        width: 500px;
+        width: 60%;
         text-align: center;
         font-size: 1.5rem;
     }
