@@ -916,15 +916,7 @@ ul {
      body {
         background-color: #041E43;
      }
-    .container-grid {
-        max-width: 768px;
-       width: 100%;
-        
-        height: auto;
-        margin: 0 auto;
-        
-    
-    }
+
     .containerheader-grid,
     .banner-flex,
     .titulo-serv-flex,
@@ -986,6 +978,13 @@ ul {
         
     }
 
+    .cards-imagens h2 {
+        color: white;
+    }
+
+    .segmentos h1 {
+        color: white;
+    }
     .titulo-serv {
         width: 300px;
     }
@@ -1000,6 +999,7 @@ ul {
         width: 60%;
         text-align: center;
         font-size: 1.5rem;
+        color: white;
     }
 
     .cards-solucoes {
